@@ -1,0 +1,14 @@
+.frame-title-bound{
+	border: 1px solid #DDDEE0;
+	margin-top:10px;
+}
+/* title */
+.frame-title-title{
+	height:20px;
+	line-height:20px;
+	padding:5px 5px 5px 15px;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background:#F9F9F9 url(images/arr-right.png) 5px center no-repeat;
+}

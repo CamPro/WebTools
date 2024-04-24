@@ -1,0 +1,52 @@
+/*---------------------- paging ajax -----------------------*/
+.page-ajax-active{
+	border:1px solid #8ac1f9;
+	background-color:#A4D1F3;
+	color:#508DC7;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:0 4px;
+	margin:0 3px;
+	cursor:pointer;
+	font-weight:bold;
+}
+.page-ajax-normal{
+	border:1px solid #CAD1D6;
+	background-color:#CAD1D6;
+	color:#7A7A7A;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:0 4px;
+	margin:0 3px;
+	cursor:pointer;
+	font-weight:bold;
+}
+.page-ajax-preview-img,.page-ajax-next-img{
+	display:none;
+}
+.view-all,.view-all:visited,
+.view-all:hover,.view-all:visited:hover{
+	float:right;
+	color:#033190;
+	/*background:url(../images/home/icon_view_all.png) no-repeat 0 50%;*/
+	padding-left:10px;
+	margin-left:10px;
+	text-decoration:underline;
+}
+a.page-ajax-all,
+a.page-ajax-all:visited,
+a.page-ajax-all:hover,
+a.page-ajax-all:visited:hover{
+	color:#FEAA19;
+	margin-left:5px;
+	text-decoration:underline;
+}
+.icon-favorite{
+	width:20px; float:left; padding-right:3px;
+}
+.generate-css{
+	width:100%;
+	height:400px;	
+}

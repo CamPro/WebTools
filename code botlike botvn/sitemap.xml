@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://botvn.me/</loc>
+</url>
+<url>
+  <loc>http://botvn.me/index.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/terms.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/privacy.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/autocmt.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/autoshare.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/autosub.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/addfr.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/botlike.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/botcmt.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/botex.php</loc>
+</url>
+<url>
+  <loc>http://botvn.me/logout.php
+</loc>
+</url>
+<url>
+  <loc>http://botvn.me/index.php?info=400
+</loc>
+</url>
+<url>
+  <loc>http://botvn.me/index.php?info=logout
+</loc>
+</url>
+</urlset>

@@ -1,0 +1,220 @@
+/*-------FOOTER MENU-----------*/
+#footpanel {
+	position: fixed;
+	bottom: 0; 
+	right: 0;
+	z-index: 9999; /*--Keeps the panel on top of all other elements--*/
+	background: #CCCCCC;
+	border: 1px solid #999999;
+	border-bottom: none;
+	width: 170px;
+}
+#footpanel:hover{background-color: #fff;}
+#footpanel ul li{
+	padding: 0; margin: 0;
+	float: left;
+	position: relative;
+}
+#footpanel ul li a{
+	padding: 5px;
+	float: left;
+	text-indent: -9999px;
+	height: 16px; width: 16px;
+	text-decoration: none;
+	color: #333;
+	position: relative;
+}
+#footpanel a.table_map{	
+	background: url(../../images/footer/../../images/footer/home.png) no-repeat 15px center;
+	width: 58px;
+	padding-left: 40px;
+	text-indent: 0; /*--Reset text indent--*/
+}
+a.make_invoice{	background: url(../../images/footer/make_invoice.png) no-repeat center center;  }
+a.contacts{	background: url(../../images/footer/user.png) no-repeat center center; }
+a.email{background: url(../../images/footer/mail.png) no-repeat center center; }
+a.chart{	background: url(../../images/footer/chart--plus.png) no-repeat center center; }
+a.report{	background: url(../../images/footer/chart-up-color.png) no-repeat center center; }
+a.timesheet{	background: url(../../images/footer/calendar-day.png) no-repeat center center; }
+a.editprofile{	background: url(../../images/footer/information-balloon.png) no-repeat center center; }
+a.excel{background: url(../../images/footer/document-excel.png) no-repeat center center; }
+a.pdf{background: url(../../images/footer/document-pdf.png) no-repeat center center; }
+a.word{background: url(../../images/footer/document-word.png) no-repeat center center; }
+a.image-jpg{background: url(../../images/footer/document-image.png) no-repeat center center; }
+a.access{background: url(../../images/footer/document-access.png) no-repeat center center; }
+a.printer{background: url(../../images/footer/printer-empty.png) no-repeat center center; }
+a.backup{background: url(../../images/footer/database-export.png) no-repeat center center; }
+a.restore{background: url(../../images/footer/database-import.png) no-repeat center center; }
+#footpanel a.chat{	
+	background: url(../../images/footer/balloon.png) no-repeat 15px center;
+	width: 126px;
+	padding-left: 40px;
+	text-indent: 0; /*--Reset text indent--*/
+}
+a.alerts{	background: url(../../images/footer/question.png) no-repeat center center;	 }
+#footpanel li#chatpanel, #footpanel li#alertpanel {	float: right; }  /*--Right align the chat and alert panels--*/
+#footpanel a small {  /*--panel tool tip styles--*/
+	text-align: center;
+	width: 100px;
+	background: url(../../images/footer/pop_arrow.gif) no-repeat center bottom;
+	padding: 5px 5px 11px;
+	display: none; /*--Hide by default--*/
+	color: #fff;
+	font-size: 1em;
+	text-indent: 0;
+}
+#footpanel a:hover small{
+	display: block; /*--Show on hover--*/
+	position: absolute;
+	top: -35px; /*--Position tooltip 35px above the list item--*/
+	left: 50%; 
+	margin-left: -40px; /*--Center the tooltip--*/
+	z-index: 9999;
+}
+#footpanel ul li div a { /*--Reset link style for subpanel links--*/
+	text-indent: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+	float: none;
+	color: #00629a;
+	position: static;
+}
+#footpanel ul li div a:hover {	text-decoration: underline; } /*--Reset link style for subpanel links--*/
+#footpanel .subpanel {
+	position: absolute;
+	left: 0; bottom: 27px;
+	display: none;	/*--Hide by default--*/
+	width: 198px;
+	border: 1px solid #999999;
+	border-bottom:0px;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 2px;
+}
+#footpanel h3 {
+	background: #526ea6;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 1.1em;
+	cursor: pointer;
+	margin-top:0px;
+}
+#footpanel h3 span { 
+	font-size: 1.5em;
+	float: right;
+	line-height: 0.6em;	
+	font-weight: normal;
+	color:#FFFFFF;
+}
+#footpanel .subpanel ul{
+	padding: 0; margin: 0;
+	background: #fff;
+	width: 100%;
+	overflow: auto;
+	margin-top:-15px;
+}
+#footpanel .subpanel li{ 
+	float: none; /*--Reset float--*/
+	display: block;
+	padding: 0; margin: 0;
+	overflow: hidden;
+	clear: both;
+	background: #fff;
+	position: static;  /*--Reset relative positioning--*/
+	font-size: 0.9em;
+}
+#chatpanel .subpanel li { background: url(../../images/footer/dash.gif) repeat-x left center; } 
+#chatpanel .subpanel li span {
+	padding: 5px;
+	background: #fff;
+	color: #777;
+	float: left;
+}
+#chatpanel .subpanel li a img {
+	float: left;
+	margin: 0 5px;
+}
+#chatpanel .subpanel li a{
+	padding: 3px 0;	margin: 0;
+	line-height: 22px;
+	height: 22px;
+	background: #fff;
+	display: block;
+}
+#chatpanel .subpanel li a:hover {
+	background: #3b5998;
+	color: #fff;
+	text-decoration: none;
+}
+#alertpanel .subpanel { right: 0; left: auto; /*--Reset left positioning and make it right positioned--*/ }
+#alertpanel .subpanel li {
+	border-top: 1px solid #f0f0f0;
+	display: block;
+}
+#alertpanel .subpanel li p {padding: 5px 10px;}
+#alertpanel .subpanel li a.delete{
+	background: url(../../images/footer/delete_x.gif) no-repeat;
+	float: right;
+	width: 13px; height: 14px;
+	margin: 5px;
+	text-indent: -9999px;
+	visibility: hidden; /*--Hides by default but still takes up space (not completely gone like display:none;)--*/
+}
+#alertpanel .subpanel li a.delete:hover { background-position: left bottom; }
+#footpanel #alertpanel li.view {
+	text-align: right;
+	padding: 5px 10px 5px 0;
+}
+/*-------------CHATBOX------------------*/
+.chatbox {
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:11px;
+}
+.chatboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	line-height: 1.3em;
+	padding: 5px;
+	padding-left:6px;
+	padding-top:0px;
+	margin-top:0px;
+	max-height:400px;
+	overflow:auto;
+}
+.chatboxinput {
+	padding: 5px;
+	padding-top:6px;
+	padding-left:6px;
+	background-color: #ffffff;
+}
+.chatboxtextarea{
+	height:44px;
+	padding:3px 0pt 3px 3px;
+	border: 1px solid #eeeeee;
+	margin: 1px;
+	overflow:auto;	
+}
+.chatboxtextareaselected{
+	height:44px;
+	overflow:auto;	
+	padding:3px 0pt 3px 3px;
+	border: 2px solid #f99d39;
+	margin:0;
+}
+.chatboxcontent_message{
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:200px;
+	width:209px;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding:7px;	
+	background-color: #ffffff;
+	line-height: 1.3em;
+	border:1px solid #000000;
+}
+.chatbox_user{
+	font-weight:bold;	
+}

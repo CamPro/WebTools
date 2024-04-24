@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8' />
+	<meta name='description' content='Atlanta based web design firm specializing in providing fast loading, interactive websites with content-driven design.' />
+	<meta name='keywords' content='' />
+	<title>Color Powered</title>
+	<link rel='stylesheet' href='/main.css'/> 
+<link rel='stylesheet' href='/colorbox/core/example1/colorbox.css'/> 
+</head>
+<body id='page_colorbox_core_example1_images_ie6_borderBottomRight.pn'>
+	<div id="header_wrapper">
+		<div id="header">
+			<p id="logo"><a href="/">Color Powered</a></p>
+			<ul>
+				<li id="nav_home" class="first"><a href="/">Home</a></li>
+				<li id="nav_web"><a href="/web_design/">Web Design</a></li>
+				<li id="nav_apps"><a href="/colorbox/">Web Applications</a></li>
+				<li id="nav_illustration"><a href="/branding_and_illustration/">Branding and Illustration</a></li>
+				<li id="nav_approach"><a href="/our_approach/">Our Approach</a></li>
+				<li id="nav_about"><a href="/about/">About</a></li>
+				<li id="nav_contact"><a class="contact_link" href="mailto:info@colorpowered.com">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content_wrapper">
+		<div id="content">
+			<div class="section">
+	<strong>404: Page not found</strong>
+</div>		</div>
+		<div id="footer">
+			<p>email: <a href="mailto:info@colorpowered.com">info@colorpowered.com</a> &copy; 2011 Color Powered</p>
+		</div>
+	</div>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script> 
+<script src='/main.js'></script> 
+<script src='/colorbox/core/colorbox/jquery.colorbox.js'></script> 
+	<!--[if IE 6]>
+		<script src="/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script>DD_belatedPNG.fix('#header ul a, #header_wrapper, #content_wrapper, p.design_nav a, p.numbernav a, p.photonav a, .branding_info');</script>
+		<style>#content, #web_portfolio, #branding_thumbs{_height:1%;}</style>
+	<![endif]-->
+</body>
+</html>

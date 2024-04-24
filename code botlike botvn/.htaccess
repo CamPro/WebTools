@@ -1,0 +1,32 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+ RewriteRule ^index.html$ index.php [L]
+ RewriteRule ^AutoLike$ auto_2/autolike.php [L]
+ RewriteRule ^AutoFriend$ auto_2/friend.php [L]
+ RewriteRule ^AutoSub$ auto_2/sub.php [L]
+ RewriteRule ^AutoCmt$ auto_2/cmt.php [L]
+ RewriteRule ^Del$ auto_2/stt.php [L]
+ RewriteRule ^DelFriend$ auto_2/delfr.php [L]
+ RewriteRule ^Confirm$ auto_2/confirm.php [L]
+ RewriteRule ^Post$ auto_2/post.php [L]
+
+ RewriteRule ^Ex$ bot_2/ex.php [L]
+ RewriteRule ^Exreac$ bot_2/exreac.php [L]
+ RewriteRule ^BotLike$ bot_2/botlike.php [L]
+ RewriteRule ^BotReac$ bot_2/reac.php [L]
+ RewriteRule ^BotCmt$ bot_2/botcmt.php [L]
+ RewriteRule ^BotCmtRandom$ bot_2/random.php [L]
+
+ RewriteRule ^BoomLike$ boom_2/like.php [L]
+ RewriteRule ^BoomWall$ boom_2/wall.php [L]
+ RewriteRule ^BoomCmt$ boom_2/cmt.php [L]
+
+ RewriteRule ^Vip$ vip/login.php [L]
+ RewriteRule ^Success$ vip/index.php [L]
+
+
+ RewriteRule ^AUTO-AND-BOT-FACEBOOK-VNZIM-NET-LOGIN-HTC-CAPTCHA.html$ loginhtc/login-captcha.php [L]
+ RewriteRule ^AUTO-AND-BOT-FACEBOOK-VNZIM-NET-LOGIN-EMAIL-CAPTCHA.html$ login-email/login-captcha.php [L]
+ RewriteRule ^AUTO-AND-BOT-FACEBOOK-VNZIM-NET-([a-zA-Z_-]+)-([a-zA-Z_-]+).html$ home.php?act=$1&id=$2

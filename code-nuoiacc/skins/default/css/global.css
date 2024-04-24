@@ -1,0 +1,72 @@
+/*--------------- Module-----------------------*/
+.form-title
+{
+	font-size:19px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.portal-info
+{
+	text-decoration:none;
+	font-weight:bold;
+}
+a.module-btn
+{
+	height:12px;
+	width:12px;
+	padding:3px 3px 3px 3px;
+	margin:3px 3px 3px 3px;
+	border:1px solid black;
+	background-color:#FFFFFF;
+	background-position:center;
+	background-repeat:no-repeat;
+	display:block;
+}
+a.module-delete-btn
+{
+	background-image:url(../images/module-buttons/delete.gif);
+}
+a.module-edit-btn
+{
+	background-image:url(../images/module-buttons/edit.gif);
+}
+a.module-add-btn
+{
+	background-image:url(../images/module-buttons/duplicate.gif);
+}
+a.module-language-btn
+{
+	background-image:url(../images/module-buttons/language.jpg);
+}
+a.module-edit-btn
+{
+	background-image:url(../images/module-buttons/edit.gif);
+}
+a.module-move-up-btn
+{
+	background-image:url(../images/module-buttons/up-arrow.gif);
+}
+a.module-move-down-btn
+{
+	background-image:url(../images/module-buttons/down-arrow.gif);
+}
+a.module-setting-btn
+{
+	background-image:url(../images/module-buttons/b-chi.gif);
+}
+a.module-delete-btn
+{
+	background-image:url(../images/module-buttons/delete.gif);
+}
+a.module-close-btn
+{
+	background-image:url(../images/module-buttons/close.jpg);
+}
+.admin-tasks
+{
+	width:100%;
+	position:relative;
+	float:left;
+	z-index:10;
+	opacity:.75;
+}

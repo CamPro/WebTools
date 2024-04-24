@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cms>
+	<name><![CDATA[NukeViet CMS 4.3.00]]></name>
+	<version><![CDATA[4.3.00]]></version>
+	<date><![CDATA[Wed, 08 Nov 2017 17:00:00 GMT]]></date>
+	<message><![CDATA[Tiếp tục cải tiến hệ thống, tối ưu các tính năng các module được tích hợp sẵn và bổ sung nhiều tính năng mới mẻ là những gì NukeViet 4.3 mang lại. Đồng thời, NukeViet 4.3 cũng là phiên bản đánh dấu sự thay đổi trong quá trình phát triển NukeViet]]></message>
+	<link><![CDATA[https&#x3A;&#x002F;&#x002F;nukeviet.vn&#x002F;]]></link>
+	<updateable><![CDATA[]]></updateable>
+	<updatepackage><![CDATA[]]></updatepackage>
+</cms>

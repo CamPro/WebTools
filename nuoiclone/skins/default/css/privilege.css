@@ -1,0 +1,50 @@
+.privilege-list-bound{
+}
+.privilege-list-bound .privilege-list{
+	padding:0;
+	margin:0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	z-index:99;
+	position:relative;
+	left:-140px;
+}
+.privilege-list-bound .privilege-list li {
+	display:block;
+	background:#fff;
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: width 0.4s linear;
+	min-width:150px;
+	position:relative;
+}
+.privilege-list-bound .privilege-list:hover{left:0;}
+.privilege-list-bound .privilege-list li a{
+	display:block;
+	color:#6c6c6c !important;
+	padding:5px;
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: width 0.4s linear;
+}
+.privilege-list-bound .privilege-list li:hover{background:#fe2200;}
+.privilege-list-bound .privilege-list li:hover > a{color:#fff !important;}
+.privilege-list-bound .privilege-list li a i{margin-right:5px;}
+.privilege-list-bound .privilege-list > li > ul.privilege-list-childs,
+.privilege-list-bound .privilege-list > li > ul.privilege-list-childs > li > ul.privilege-list-childs-childs{
+	position:absolute;
+	width:210px;
+	border-left: 3px #f0f0f0 solid;
+	left:145px;
+	top:0;
+	display:none;
+	background:#fff;
+	box-shadow: 0px 1px 3px rgba(204, 204, 204, 0.5);
+	margin:0;
+	padding:0;
+	z-index:99;
+}
+.privilege-list-bound .privilege-list > li:hover > ul.privilege-list-childs{display:block;}
+.privilege-list-bound .privilege-list > li > ul.privilege-list-childs > li > ul.privilege-list-childs-childs{left:210px;overflow:hidden;}
+.privilege-list-bound .privilege-list > li > ul.privilege-list-childs > li:hover > ul.privilege-list-childs-childs{display:block;}

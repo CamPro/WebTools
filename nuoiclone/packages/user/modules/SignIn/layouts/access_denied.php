@@ -1,0 +1,1 @@
+<div class="access-denied"><span>You have no right to access...!</span> <!--IF:cond(User::is_login())--><a href="<?php echo Url::build('home');?>">[[.Home.]]</a><!--ELSE--><a href="<?php echo Url::build('sign_in');?>">[[.Sign_in.]]</a><!--/IF:cond--></div>

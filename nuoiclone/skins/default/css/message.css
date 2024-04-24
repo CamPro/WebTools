@@ -1,0 +1,44 @@
+/*---------------ErrorMessage-----------------------*/
+#error_message{
+	border:10px solid #f00;
+	width:410px;
+	height:160px;
+	background: url(../../vccr/images/home/bg_log_faile.gif) repeat-x scroll center bottom transparent; 
+	line-height:25px;
+	display:none;
+}
+.error-title{
+	background-color:#c2290c;
+	color:#FFF;
+	font-weight:bold;
+	text-align:left;
+	text-indent:14px;
+}
+.error-content{	
+	/*background:url(../../vccr/images/home/icon_log_faile.gif) 15% 30% no-repeat;*/
+	line-height:110px;
+	font-weight:bold;
+	height:140px;
+}
+/*---------------------UpdateSuccessFul---------------------------*/
+#success_message{
+	border:1px solid #d0c8c7;
+	width:410px;
+	height:160px;
+	background: url(../../vccr/images/home/bg_log_faile.gif) repeat-x scroll center bottom transparent; 
+	line-height:25px;
+	display:none;
+}
+.success-title{
+	background-color:#17437a;
+	color:#FFF;
+	font-weight:bold;
+	text-align:left;
+	text-indent:14px;
+}
+.success-content{	
+	background:url(../../vccr/images/home/checkmark.jpg) 15% 30% no-repeat;
+	line-height:110px;
+	font-weight:bold;
+	height:140px;
+}

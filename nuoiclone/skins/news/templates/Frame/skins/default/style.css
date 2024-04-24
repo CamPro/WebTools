@@ -1,0 +1,24 @@
+.frame-default-bound{
+	margin-bottom:10px;
+}
+/* title */
+.frame-default-title{
+	height:40px;
+	line-height:40px;
+	color:#fff;
+}
+.frame-default-icon{ float:left; padding:4px 28px;}
+.frame-default-title-right{background: url(../../../../images/title_l.png) no-repeat; }
+.frame-default-title-center{font-family:'mimispa';font-size:18px;letter-spacing:1px;
+	height:45px; line-height:42px; padding:2px 8px; text-transform:uppercase; font-weight:normal;}
+.frame-default-title-left{ background:url(../../../../images/title_r.png) no-repeat 263px 0; height:50px;}
+.frame-default-content-bound{margin-top:10px;}
+.advertisment-title{ background:url(../../../../images/gioi-thieu_03.png) repeat-x; margin-top:-18px; width:695px;}
+.advertisment-title h3{  
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+    height: 61px;
+    line-height: 61px;
+    color: #fff;
+    text-transform: uppercase;}

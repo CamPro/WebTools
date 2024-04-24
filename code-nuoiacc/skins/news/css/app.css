@@ -1,0 +1,170 @@
+.list-group-item {
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+}
+.k-checkbox{
+    position: relative;
+	float:right;
+	padding-right:15px;
+}
+.pull-right {
+    float: right;
+}
+.text-muted span{
+	font-size:11px;	
+}
+.list-group-item.active .text-muted span{
+	color:#ccc;	
+}
+.list-group-item > .badge {
+    float: right;
+	font-size:11px;
+}
+span.label-green {
+    background: rgb(46, 204, 113);
+}
+span.label {
+    font-size: 11px;
+    font-weight: 400;
+    padding: 4px 7px;
+}
+.rounded {
+    border-radius: 4px !important;
+}
+.k-checkbox i, .k-radio i {
+    width: 17px;
+    height: 17px;
+    border-width: 1px;
+}
+.k-checkbox i, .k-radio i {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    outline: none;
+    border-style: solid;
+    background: rgb(255, 255, 255);
+    border-color: rgb(187, 187, 187);
+}
+.badge-red,
+.label-red{
+	background-color:#f00 !important;	
+}
+.list-group-item.active .text-muted span,
+.list-group-item.active a{
+	color:#FFF !important;	
+}
+.list-group-item.active > .badge, .nav-pills > .active > a > .badge{
+	color:#FFF;	
+}
+.previewer {
+	height: 100%;
+}
+.conversation-box {
+    position: relative;
+    height: 100%;
+}
+.comment-list {
+	height:322px;
+	padding: 15px;
+	overflow:auto;
+}
+.comment-input {
+    position: absolute;
+    min-height: 95px;
+    width: 100%;
+    bottom: 0;
+    background-color: #eee;
+    padding: 15px;
+	display:none;
+}
+
+.conversation-box .bubbledLeft {
+    float: left;
+    margin-right: auto;
+}
+.conversation-box .comment-item .comment-box .comment-content {
+    float: right;
+	font-size:13px !important;
+    border-radius: 5px;
+    padding: 10px;
+    word-break: break-word;
+}
+.conversation-box .bubbledLeft, .conversation-box .bubbledRight {
+    padding: 5px 9px;
+    max-width: 70%;
+    clear: both;
+    position: relative;
+    word-wrap: break-word;
+}
+.conversation-box .bubbledRight {
+    float: right;
+    margin-left: auto;
+    text-align: right;
+}
+.conversation-box .bubbledLeft, .conversation-box .bubbledRight {
+    padding: 5px 9px;
+    max-width: 70%;
+    clear: both;
+    position: relative;
+    word-wrap: break-word;
+}
+.conversation-box .bubbledLeft .from-name {
+    margin-left: 55px;
+}
+.conversation-box .comment-item .comment-box {
+    display: inline-block;
+}
+.conversation-box .comment-item .comment-box .comment-avatar {
+    position: absolute;
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    word-break: break-word;
+}
+.conversation-box .bubbledRight .comment-content {
+    background-color: #2196f3;
+    color: #fff;
+    border: 1px solid #2196f3;
+    margin-right: 55px;
+}
+.conversation-box .bubbledRight .comment-avatar {
+    right: 0;
+}
+.conversation-box .bubbledRight .text-muted {
+    color: #eee;
+}	
+.conversation-box .bubbledLeft .text-muted, .conversation-box .bubbledRight .text-muted {
+    font-size: .8em;
+}
+.conversation-box .bubbledRight .from-name {
+    margin-right: 55px;
+}
+.conversation-box .bubbledLeft .comment-content {
+    background-color: #f6f7f8;
+    margin-left: 55px;
+}
+.conversation-box .comment-item img.fb-picture {
+    float: left;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.inbox-box .load-more {
+    text-align: center;
+}
+.list-inline {
+    margin-left: -5px;
+}
+.list-inline, .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}

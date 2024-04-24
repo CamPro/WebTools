@@ -1,0 +1,3 @@
+[Wed, 21 Nov 2018 13:55:58 +0700] [localhost] [::1] [Notice(8): Array to string conversion] [FILE: /includes/core/user_functions.php] [LINE: 360]
+[Wed, 21 Nov 2018 13:55:58 +0700] [localhost] [::1] [Notice(8): Array to string conversion] [FILE: /includes/xtemplate.class.php] [LINE: 893]
+[Wed, 21 Nov 2018 13:56:11 +0700] [localhost] [::1] [Warning(2): count(): Parameter must be an array or an object that implements Countable] [FILE: /vendor/gregwar/captcha/CaptchaBuilder.php] [LINE: 333]

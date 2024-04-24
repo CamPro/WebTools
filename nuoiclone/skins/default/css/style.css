@@ -1,0 +1,27 @@
+/*--------------- Layout simple-----------------------*/
+.simple-layout-bound{	
+	width:100%;
+	background:url(../images/body-bg.png);
+}
+.simple-layout-content{
+}
+.simple-layout-banner{
+	margin-bottom:5px;
+}
+.simple-layout-center{
+}
+.simple-layout-center-content{
+	margin:0 20px;
+	font-size:13px;
+}
+.simple-layout-footer{}
+.page_overlay{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/overlay.png);
+	z-index: 30000;
+	display: none;
+}

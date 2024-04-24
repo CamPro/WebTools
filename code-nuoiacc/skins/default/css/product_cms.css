@@ -1,0 +1,24 @@
+/*------------ProductAdmin-----------*/
+#toolbart{position:relative;}
+.product-tools{
+	width:100px;
+	height:100px;
+	background:#f0f;
+	position:fixed;
+	top:200px;
+	left:0;
+}
+.tools a{
+	display: inline-block;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	width: 45%;
+	margin-bottom: 5px;
+	padding: 4px;
+	text-decoration: none;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	font-size: 11px !important;
+}

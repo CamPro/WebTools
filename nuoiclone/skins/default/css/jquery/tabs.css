@@ -1,0 +1,40 @@
+@media projection, screen 
+{
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+@media print 
+{
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+#container-1
+{
+	width:100%;
+	#width:99%;
+}
+/* Skin */
+.ui-tabs-nav li { 
+    float: left;
+    font-weight: bold;
+	list-style-type:none;
+	padding:5px;
+	margin-right:2px;
+	background:#f1f1f1;
+}
+.ui-tabs-nav li a{
+	text-decoration:none;	
+}
+.ui-tabs-nav li a span{
+	text-decoration:none; 
+	color:#0B55C4;
+}
+.ui-tabs-nav .ui-tabs-selected{
+	background:#9EBEF5;	
+}
+.ui-tabs-nav .ui-tabs-selected a {
+    position: relative;
+}
+

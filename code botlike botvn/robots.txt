@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /skytamm/
+
+Disallow: /css/
+
+Disallow: /log/
+
+Disallow: /firewall/
+
+Disallow: /done/
+
+Disallow: /sitemap.xml
